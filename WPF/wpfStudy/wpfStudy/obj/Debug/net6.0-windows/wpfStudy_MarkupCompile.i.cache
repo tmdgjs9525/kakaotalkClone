@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\tmdgj\Desktop\WPF\wpfStudy\wpfStudy\obj\Debug\net6.0-windows\
+C:\Users\tmdgj\Desktop\wpfStudy\WPF\wpfStudy\wpfStudy\obj\Debug\net6.0-windows\
 wpfStudy
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\tmdgj\Desktop\WPF\wpfStudy\wpfStudy\App.xaml
-4-516484466
+C:\Users\tmdgj\Desktop\wpfStudy\WPF\wpfStudy\wpfStudy\App.xaml
+4726775051
 
-12-485435270
+121312665870
 1959937733
-MainWindow.xaml;UserControls\MyLabel.xaml;UserControls\ThreeControls.xaml;Views\SecondView.xaml;
+UserControls\MyLabel.xaml;UserControls\ThreeControls.xaml;Views\MainWindow.xaml;Views\SecondView.xaml;
 
-True
+False
 

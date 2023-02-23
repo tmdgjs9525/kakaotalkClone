@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qBgdxbqDuNpORtd1SKPQ2gBZPkL0s9ExRy3Lq6cPTEyajP0UWLFtDcLO8QlPNh4QMB5zspFNR7jlWefRsIX/cQ==",
+  "dgSpecHash": "A5pUGPYmoP1hToTdhZt12s9+NJtHbHaHct94LzZ9EwemZ/ia3iD3VKFrdhy+cM4LDBkb9RsPqpoZHBkbMjjjag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tmdgj\\Desktop\\WPF\\wpfStudy\\wpfStudy\\wpfStudy.csproj",
+  "projectFilePath": "C:\\Users\\tmdgj\\Desktop\\wpfStudy\\WPF\\wpfStudy\\wpfStudy\\wpfStudy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmdgj\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512"
   ],
