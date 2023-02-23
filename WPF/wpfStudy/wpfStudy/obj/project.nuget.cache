@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qBgdxbqDuNpORtd1SKPQ2gBZPkL0s9ExRy3Lq6cPTEyajP0UWLFtDcLO8QlPNh4QMB5zspFNR7jlWefRsIX/cQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tmdgj\\Desktop\\WPF\\wpfStudy\\wpfStudy\\wpfStudy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tmdgj\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,61 @@
+﻿<Window x:Class="FirstProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="testStyle">
+            <Setter Property="Label.Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.3">
+                        <GradientStop Color="#FF1300FF"/>
+                        <GradientStop Color="White" Offset="1"/>
+                        <GradientStop Color="#FFB9F3C2" Offset="0.515"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <!--<Trigger Property="Control.IsMouseOver" Value="True">
+                    <Setter Property="Control.Foreground" Value="Blue"></Setter>
+                </Trigger>-->
+                <DataTrigger Binding="{Binding ElementName=progressbar1,Path=Value}" Value="100">
+                    <Setter Property="Control.Visibility" Value="Hidden"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="btnTest1" Style="{StaticResource testStyle}" Content="Button" HorizontalAlignment="Right" Margin="29,68,30,0" VerticalAlignment="Top" Height="62" Width="65" Command="{Binding TestClick}" CommandParameter="{Binding ElementName=textbox1,Path=Text}"/>
+        <Label x:Name="labelTest1" Content="변경" HorizontalAlignment="Left" Margin="29,19,0,0" VerticalAlignment="Top" Height="28" Width="102" Style="{StaticResource testStyle}" />
+        <CheckBox x:Name="checkBox1" Content="나의 체크박스" HorizontalAlignment="Left" Margin="29,165,0,0" VerticalAlignment="Top" IsChecked="False"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="29,0,0,0" VerticalAlignment="Center" GroupName="MyGroup"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="29,244,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="29,276,0,0" VerticalAlignment="Top" GroupName="MyGroup"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Margin="20,318,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ListView x:Name="listView1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="192,67,103,123">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="이미지" Width="300">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel>
+                                    <Image Width="60" Height="60" Source="{Binding UserImg}"/>
+                                    <Button Height="20"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="이름" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="나이" DisplayMemberBinding="{Binding UserAge}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="34,73,0,0" VerticalAlignment="Top" Style="{StaticResource testStyle}"/>
+        <ProgressBar x:Name="progressbar1" Value="{Binding ProgressValue}" HorizontalAlignment="Left" Height="10" Margin="22,360,0,0" VerticalAlignment="Top" Width="100" />
+
+    </Grid>
+</Window>
