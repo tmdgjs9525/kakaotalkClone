@@ -101,7 +101,7 @@
             </Style>
     </UserControl.Resources>
     <Grid>
-        <ComboBox>
+        <ComboBox Height="40">
             <ComboBox.ItemContainerStyle>
                 <Style TargetType="ComboBoxItem">
                     <Setter Property="Background" Value="White"/>
@@ -110,6 +110,6 @@
             </ComboBox.ItemContainerStyle>
             <ComboBoxItem Content="s"></ComboBoxItem>
         </ComboBox >
-        <TextBox Width="220" VerticalContentAlignment="Center" HorizontalAlignment="Left" BorderBrush="White" Background="White"/>
+        <TextBox Width="220" Height="37"  VerticalContentAlignment="Center" HorizontalAlignment="Left" BorderBrush="White" Background="White"/>
     </Grid>
 </UserControl>
