@@ -4,19 +4,54 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpfStudy"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:UserControls="clr-namespace:wpfStudy.UserControls" x:Class="wpfStudy.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="MyLabel" HorizontalAlignment="Left" Margin="43,69,0,0" VerticalAlignment="Top"/>
         <ProgressBar HorizontalAlignment="Left" Height="10" Margin="43,165,0,0" VerticalAlignment="Top" Width="100" Value="{Binding ProgressValue}"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="58,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.859,0.433" Command="{Binding TestClick}" CommandParameter="{Binding Text, ElementName=textBox1}"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="58,202,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.859,0.433" Command="{Binding TestClick}" CommandParameter="{Binding Text, ElementName=textBox1}" Click="Button_Click_1"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="43,115,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
         <UserControls:ThreeControls MyCommand="{Binding TestClick}" MyText="da" HorizontalAlignment="Left" Margin="195,293,0,0" VerticalAlignment="Top"/>
         <UserControls:ThreeControls HorizontalAlignment="Left" Margin="294,295,0,0" VerticalAlignment="Top"/>
         <UserControls:MyLabel Content="dd" HorizontalAlignment="Left" Margin="468,275,0,0" VerticalAlignment="Top"/>
-        <Button Command="{Binding SecondShow}" Content="Button" HorizontalAlignment="Left" Margin="627,147,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding SecondShow}" Content="다른창" HorizontalAlignment="Left" Margin="451,355,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="573,271,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="사과"/>
+            <ComboBoxItem Content="포도"/>
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="KeyDown">
+                    <i:InvokeCommandAction Command="{Binding TestClick}"/>
+                </i:EventTrigger>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding TestClick}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+
+        </ComboBox>
+        <ListView ItemsSource="{Binding MyListUser}" x:Name="listView1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="195,50,217,193">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="이미지" Width="200">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Width="60" Height="60" Source="{Binding USERIMG}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="이름" DisplayMemberBinding="{Binding USERNAME}"/>
+                    <GridViewColumn Header="나이" DisplayMemberBinding="{Binding USERAGE}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="조회" HorizontalAlignment="Left" Margin="633,95,0,0" VerticalAlignment="Top" Command="{Binding SelectClick}"/>
+        <Button Content="추가" HorizontalAlignment="Left" Margin="633,130,0,0" VerticalAlignment="Top" Command="{Binding InsertClick}"/>
+        <TextBox HorizontalAlignment="Left" Margin="670,96,0,0" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="670,122,0,0" TextWrapping="Wrap" Text="{Binding Img}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="670,146,0,0" TextWrapping="Wrap" Text="{Binding Age}" VerticalAlignment="Top" Width="120"/>
+
 
     </Grid>
 </Window>
