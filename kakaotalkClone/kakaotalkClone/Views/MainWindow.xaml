@@ -13,6 +13,10 @@
             <Setter Property="Background" Value="Transparent"></Setter>
             <Setter Property="BorderThickness" Value="0"></Setter>
         </Style>
+        <Style x:Key="headerX" TargetType="GridViewColumnHeader">
+            <Setter Property="Height" Value="0"></Setter>
+            
+        </Style>
     </Window.Resources>
     <Grid>
         <StackPanel Background="#d2d2dd" Orientation="Vertical" Width="80" HorizontalAlignment="Left">
@@ -29,16 +33,40 @@
                 <Image Source="/Resources/addRoom.png"></Image>
             </Button>
         </DockPanel>
-        <DockPanel Width="370" Height="550" VerticalAlignment="Bottom" HorizontalAlignment="Right">
-            <ListView Width="370" d:ItemsSource="{d:SampleData ItemCount=5}">
+        <DockPanel Width="353" Height="540" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <ListView BorderThickness="0" ItemsSource="{Binding Rooms}">
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn/>
+                        <GridViewColumn HeaderContainerStyle="{DynamicResource headerX}" Header="프로필" Width="70" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Width="60" Height="60" Source="{Binding User.UserImg}"/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn HeaderContainerStyle="{DynamicResource headerX}" Header="내용" Width="280" >
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <DockPanel Width="150">
+                                        <Border Background="Gray"/>
+                                        <TextBlock
+                                            Margin="2,0,0,1"
+                                            HorizontalAlignment="Left"
+                                            DockPanel.Dock="Top"
+                                            FontSize="18"
+                                            Text="{Binding User.UserName}" />
+                                                    <TextBlock
+                                            Margin="2,0,0,1"
+                                            HorizontalAlignment="Left"
+                                            FontSize="13"
+                                            Text="{Binding LastText}" />  
+                                    </DockPanel>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
                     </GridView>
                 </ListView.View>
             </ListView>
-
-
         </DockPanel>
     </Grid>
 </Window>

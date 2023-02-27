@@ -59,3 +59,8 @@ C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\bin\Re
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\kakaotalkClone.csproj.CopyComplete
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Views\LoginWindow.g.cs
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Views\LoginWindow.baml
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\bin\Release\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\bin\Release\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Views\LoginWindow.g.cs
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Views\LoginWindow.baml
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\kakaotalkClone.csproj.CopyComplete

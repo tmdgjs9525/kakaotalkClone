@@ -10,6 +10,7 @@
   <ItemGroup>
     <None Remove="logo.PNG" />
     <None Remove="Resources\addRoom.PNG" />
+    <None Remove="Resources\defaultProfile.png" />
     <None Remove="Resources\openChat.PNG" />
     <None Remove="Resources\search.PNG" />
   </ItemGroup>
@@ -21,6 +22,7 @@
 
   <ItemGroup>
     <Resource Include="Resources\addRoom.PNG" />
+    <Resource Include="Resources\defaultProfile.png" />
     <Resource Include="Resources\logo.PNG" />
     <Resource Include="Resources\openChat.PNG" />
     <Resource Include="Resources\search.PNG" />
