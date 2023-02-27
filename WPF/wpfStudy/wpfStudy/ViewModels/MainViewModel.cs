@@ -67,9 +67,6 @@ namespace wpfStudy.ViewModels
             }
         }
         #endregion
-
-
-
         public List<USERINFO> MyListUser
         {
             get { return myListUser; }
