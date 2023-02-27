@@ -1,43 +1,32 @@
-﻿<Window
+﻿<Window x:Class="kakaotalkClone.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:kakaotalkClone"
-        xmlns:UserControls="clr-namespace:kakaotalkClone.UserControls" x:Class="kakaotalkClone.MainWindow"
+        xmlns:local="clr-namespace:kakaotalkClone.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="400" Background="#FFEB34">
+        Title="KaKaoTalk" Height="650" Width="450">
+    <Window.Resources>
+        <Style x:Key="smallBtn" TargetType="Button">
+            <Setter Property="Width" Value="30"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="Background" Value="Transparent"></Setter>
+        </Style>
+    </Window.Resources>
     <Grid>
-        <StackPanel Orientation="Vertical">
-            <Image Width="150" Height="150" Margin="0,100,0,20" Source="/Resources/logo.png"/>
-            <UserControls:textComboBox Width="250" Height="40"/>
-            <TextBox VerticalContentAlignment="Center" Width="250" Height="40" Style="{DynamicResource WatemarkTextBox}" Tag="비밀번호" Margin="0,0,0,10"/>
-            <Button Content="로그인" Foreground="Silver" BorderBrush="Silver" Width="250" Height="40"/>
-            <Grid Width="250" Height="40" >
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="2*"/>
-                </Grid.ColumnDefinitions>
-                <StackPanel Grid.Column="0" Height="1" Background="Silver"></StackPanel>
-                <Label Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Content="또는" Foreground="Silver"/>
-                <StackPanel Grid.Column="2" Height="1" Background="Silver"></StackPanel>
-            </Grid>
-            <Button Width="250" Height="40" Background="White" Content="QR 코드 로그인"/>
-            <Grid>
-                <Viewbox Height="30" Width="30" Margin="-220,5,0,0">
-                    <CheckBox Style="{DynamicResource CheckBoxCircle}"></CheckBox>
-                </Viewbox>
-                <Label></Label>
-                <Viewbox Height="30" Width="30" Margin="-220,5,0,0">
-                    <CheckBox Style="{DynamicResource CheckBoxCircle}"></CheckBox>
-                </Viewbox>
-                <Label Content="자동 로그인" VerticalContentAlignment="Center" Margin="100,5,0,0"/>
-            </Grid>
+        <StackPanel Background="Silver" Orientation="Vertical" Width="80" HorizontalAlignment="Left">
             
-
         </StackPanel>
+        <DockPanel  Height="50" VerticalAlignment="Top" Margin="0,30,0,0">
+            <Button Style="{DynamicResource smallBtn}"  HorizontalAlignment="Left" Margin="310,0,0,0" ToolTip="통합검색" BorderThickness="0">
+                <Image Source="/Resources/search.png"></Image>
+            </Button>
+            <Button Style="{DynamicResource smallBtn}" HorizontalAlignment="Left" Margin="0,0,0,0" ToolTip="통합검색" BorderThickness="0">
+                <Image Source="/Resources/openChat.png"></Image>
+            </Button>
+            <Button Style="{DynamicResource smallBtn}" HorizontalAlignment="Left" Margin="0,0,0,0" ToolTip="통합검색" BorderThickness="0">
+                <Image Source="/Resources/addRoom.png"></Image>
+            </Button>
+        </DockPanel>
     </Grid>
 </Window>
-
-    

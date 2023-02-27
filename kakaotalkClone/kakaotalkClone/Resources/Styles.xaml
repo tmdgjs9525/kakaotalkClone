@@ -30,7 +30,7 @@
                             <Setter Property="Visibility" TargetName="TextPrompt" Value="Visible"/>
                         </MultiTrigger>
                         <Trigger Property="IsFocused" Value="True">
-                            <Setter Property="BorderBrush" TargetName="BorderBase" Value="Black"/>
+                            <Setter Property="BorderBrush" TargetName="BorderBase" Value="SkyBlue"/>
                         </Trigger>
                         <Trigger Property="IsEnabled" Value="False">
                             <Setter Property="Foreground" Value="DimGray"/>

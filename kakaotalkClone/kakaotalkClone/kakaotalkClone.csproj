@@ -9,10 +9,21 @@
 
   <ItemGroup>
     <None Remove="logo.PNG" />
+    <None Remove="Resources\addRoom.PNG" />
+    <None Remove="Resources\openChat.PNG" />
+    <None Remove="Resources\search.PNG" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\addRoom.PNG" />
     <Resource Include="Resources\logo.PNG" />
+    <Resource Include="Resources\openChat.PNG" />
+    <Resource Include="Resources\search.PNG" />
   </ItemGroup>
 
   <ItemGroup>

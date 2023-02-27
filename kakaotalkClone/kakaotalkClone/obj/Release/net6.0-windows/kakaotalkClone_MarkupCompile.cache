@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\
+C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\
 kakaotalkClone
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\App.xaml
-3-1418374956
+C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\App.xaml
+4-1231055016
 
-5-652099008
-194101785492
-Resources\Styles.xaml;UserControls\textComboBox.xaml;Views\MainWindow.xaml;
+9-683401837
+196-696598322
+Resources\Styles.xaml;UserControls\textComboBox.xaml;Views\LoginWindow.xaml;Views\MainWindow.xaml;
 
 False
 

@@ -5,12 +5,24 @@
     <Compile Update="UserControls\textComboBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Resources\Styles.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\textComboBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

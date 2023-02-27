@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WvPIdEGJiXnJA514DMSTj18bXE/Yni/T88ZRIZHDpYEMq1gpAyjYoX0pq2iihP7/61hrUBJZ/ROcY2SPQKwN2g==",
+  "dgSpecHash": "VtcAKwWopDeGVdAJd25cUASTdUtwOG+G2AYV6ddo01Ggt86RnP7EuLI1xWzdogiTQoyiCXKdvwPxPYTErO1c4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tmdgj\\Desktop\\wpfStudy\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\PCL_UNKNOWN\\Desktop\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PCL_UNKNOWN\\.nuget\\packages\\communitytoolkit.mvvm\\8.1.0\\communitytoolkit.mvvm.8.1.0.nupkg.sha512",
+    "C:\\Users\\PCL_UNKNOWN\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
   "logs": []
 }
