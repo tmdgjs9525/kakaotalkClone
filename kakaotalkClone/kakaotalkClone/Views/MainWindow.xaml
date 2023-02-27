@@ -11,22 +11,34 @@
             <Setter Property="Width" Value="30"></Setter>
             <Setter Property="Height" Value="30"></Setter>
             <Setter Property="Background" Value="Transparent"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
         </Style>
     </Window.Resources>
     <Grid>
-        <StackPanel Background="Silver" Orientation="Vertical" Width="80" HorizontalAlignment="Left">
+        <StackPanel Background="#d2d2dd" Orientation="Vertical" Width="80" HorizontalAlignment="Left">
             
         </StackPanel>
         <DockPanel  Height="50" VerticalAlignment="Top" Margin="0,30,0,0">
-            <Button Style="{DynamicResource smallBtn}"  HorizontalAlignment="Left" Margin="310,0,0,0" ToolTip="통합검색" BorderThickness="0">
+            <Button Style="{DynamicResource smallBtn}"  HorizontalAlignment="Left" Margin="310,0,0,0" ToolTip="통합검색" >
                 <Image Source="/Resources/search.png"></Image>
             </Button>
-            <Button Style="{DynamicResource smallBtn}" HorizontalAlignment="Left" Margin="0,0,0,0" ToolTip="통합검색" BorderThickness="0">
+            <Button Style="{DynamicResource smallBtn}" HorizontalAlignment="Left" Margin="0,0,0,0" ToolTip="통합검색">
                 <Image Source="/Resources/openChat.png"></Image>
             </Button>
-            <Button Style="{DynamicResource smallBtn}" HorizontalAlignment="Left" Margin="0,0,0,0" ToolTip="통합검색" BorderThickness="0">
+            <Button Style="{DynamicResource smallBtn}" HorizontalAlignment="Left" Margin="0,0,0,0" ToolTip="통합검색">
                 <Image Source="/Resources/addRoom.png"></Image>
             </Button>
+        </DockPanel>
+        <DockPanel Width="370" Height="550" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <ListView Width="370" d:ItemsSource="{d:SampleData ItemCount=5}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+
         </DockPanel>
     </Grid>
 </Window>
