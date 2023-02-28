@@ -35,11 +35,9 @@ C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Re
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Resources\Styles.baml
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\UserControls\textComboBox.g.cs
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Views\MainWindow.g.cs
-C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\App.g.cs
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\kakaotalkClone_MarkupCompile.cache
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\kakaotalkClone_MarkupCompile.lref
-C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\App.baml
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\UserControls\textComboBox.baml
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\Views\MainWindow.baml
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Release\net6.0-windows\kakaotalkClone.g.resources

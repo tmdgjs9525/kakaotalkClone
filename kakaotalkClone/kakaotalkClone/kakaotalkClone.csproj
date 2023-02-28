@@ -21,11 +21,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Resources\addRoom.PNG" />
-    <Resource Include="Resources\defaultProfile.png" />
-    <Resource Include="Resources\logo.PNG" />
-    <Resource Include="Resources\openChat.PNG" />
-    <Resource Include="Resources\search.PNG" />
+    <Resource Include="Resources\addRoom.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\defaultProfile.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\logo.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\openChat.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\search.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>

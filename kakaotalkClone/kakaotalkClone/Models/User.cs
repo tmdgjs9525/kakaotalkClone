@@ -8,18 +8,18 @@ namespace kakaotalkClone.Models
 {
     public class User
     {
-		private string userImg;
+		private Uri userImg;
 		private string userName;
 
 
-		public User(string userImg, string userName)
+		public User(Uri userImg, string userName)
 		{
 			this.UserName= userName;
 			this.UserImg= userImg;
 		}
 
 		#region property
-		public string UserImg
+		public Uri UserImg
 		{
 			get { return userImg; }
 			set { userImg = value; }
