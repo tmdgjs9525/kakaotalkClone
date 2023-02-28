@@ -9,7 +9,11 @@
     <Grid>
         <DockPanel Height="130" VerticalAlignment="Top">
             <Image Width="40" Height="40" HorizontalAlignment="Left" Margin="20,0,0,0" Source="{Binding User.UserImg}"/>
-            <Label Width="200" Height="30" FontSize="15" HorizontalAlignment="Left" Margin="0,0,0,20" Content="{Binding User.UserName}"></Label>
+            <StackPanel>
+                <Label Width="200" Height="30" FontSize="15" HorizontalAlignment="Left" Margin="0,37,0,0" Content="{Binding User.UserName}"></Label>
+                <Label Width="50" Height="25" HorizontalAlignment="Left" Content="2명" FontSize="12" Foreground="DimGray"></Label>
+            </StackPanel>
+            
         </DockPanel>
     </Grid>
 </Window>
