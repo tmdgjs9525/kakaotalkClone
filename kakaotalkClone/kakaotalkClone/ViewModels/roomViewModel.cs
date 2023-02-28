@@ -13,7 +13,17 @@ namespace kakaotalkClone.ViewModels
     {
 		private string title;
 
-		public string Title
+        private User user;
+
+        public User User
+        {
+            get { return user; }
+            set { user = value; }
+        }
+
+
+
+        public string Title
 		{
 			get { return title; }
 			set { title = value; }
@@ -21,6 +31,7 @@ namespace kakaotalkClone.ViewModels
 
         public roomViewModel(User user)
         {
+            User = user;
             title = user.UserName;
         }
 

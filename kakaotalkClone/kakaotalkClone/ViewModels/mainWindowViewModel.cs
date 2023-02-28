@@ -47,7 +47,12 @@ namespace kakaotalkClone.ViewModels
             {
                 new User(new Uri(@"\Resources\defaultProfile.png",UriKind.Relative), "amuga"),
                 new User(new Uri(@"\Resources\defaultProfile.png",UriKind.Relative), "bbb"),
-                new User(new Uri(@"\Resources\defaultProfile.png", UriKind.Relative), "ccc")
+                new User(new Uri(@"\Resources\defaultProfile.png", UriKind.Relative), "이승헌"),
+                new User(new Uri(@"\Resources\defaultProfile.png",UriKind.Relative), "박효신"),
+                new User(new Uri(@"\Resources\defaultProfile.png",UriKind.Relative), "아르노"),
+                new User(new Uri(@"\Resources\defaultProfile.png", UriKind.Relative), "케케케"),
+                new User(new Uri(@"\Resources\defaultProfile.png", UriKind.Relative), "김가연"),
+                new User(new Uri(@"\Resources\defaultProfile.png", UriKind.Relative), "옥주현"),
             };
 
             Rooms = new List<Room>
@@ -55,6 +60,11 @@ namespace kakaotalkClone.ViewModels
                 new Room(testUsers[0],"뭐해?"),
                 new Room(testUsers[1]),
                 new Room(testUsers[2], "테스트"),
+                new Room(testUsers[3],"나 노래 부르고 있지"),
+                new Room(testUsers[4]),
+                new Room(testUsers[5], "가즈아"),
+                new Room(testUsers[6], "엥엥엥엥엥엥엥엥엥"),
+                new Room(testUsers[7], "레베카~~"),
             };
 
 

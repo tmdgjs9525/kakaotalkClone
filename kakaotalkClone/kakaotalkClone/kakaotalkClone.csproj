@@ -11,6 +11,7 @@
     <None Remove="logo.PNG" />
     <None Remove="Resources\addRoom.PNG" />
     <None Remove="Resources\defaultProfile.png" />
+    <None Remove="Resources\friendSmall.PNG" />
     <None Remove="Resources\openChat.PNG" />
     <None Remove="Resources\search.PNG" />
   </ItemGroup>
@@ -25,6 +26,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\defaultProfile.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\friendSmall.PNG">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Resources\logo.PNG">

@@ -5,7 +5,6 @@ C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-w
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-windows\kakaotalkClone.pdb
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\kakaotalkClone.csproj.AssemblyReference.cache
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\MainWindow.g.cs
-C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\kakaotalkClone_MarkupCompile.cache
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\kakaotalkClone_MarkupCompile.lref
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\MainWindow.baml
@@ -25,7 +24,6 @@ C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-w
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\UserControls\textComboBox.baml
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Resources\Styles.baml
-C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\App.baml
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-windows\kakaotalkClone.exe
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-windows\kakaotalkClone.deps.json
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-windows\kakaotalkClone.runtimeconfig.json
@@ -59,3 +57,10 @@ C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\De
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\ref\kakaotalkClone.dll
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\RoomWindow.g.cs
 C:\Users\PCL_UNKNOWN\Desktop\kakaotalkClone\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\RoomWindow.baml
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-windows\CommunityToolkit.Mvvm.dll
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\LoginWindow.g.cs
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\RoomWindow.g.cs
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\LoginWindow.baml
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\Views\RoomWindow.baml
+C:\Users\tmdgj\Desktop\wpfStudy\kakaotalkClone\kakaotalkClone\obj\Debug\net6.0-windows\kakaotalkClone.csproj.CopyComplete

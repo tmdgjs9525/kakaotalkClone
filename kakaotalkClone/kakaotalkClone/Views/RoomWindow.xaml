@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:kakaotalkClone.Views"
         mc:Ignorable="d"
-        Title="{Binding Title}" Height="650" Width="450">
+        Title="{Binding Title}" Background="#BACEE0" Height="650" Width="450">
     <Grid>
-        
+        <DockPanel Height="130" VerticalAlignment="Top">
+            <Image Width="40" Height="40" HorizontalAlignment="Left" Margin="20,0,0,0" Source="{Binding User.UserImg}"/>
+            <Label Width="200" Height="30" FontSize="15" HorizontalAlignment="Left" Margin="0,0,0,20" Content="{Binding User.UserName}"></Label>
+        </DockPanel>
     </Grid>
 </Window>
