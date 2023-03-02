@@ -1,4 +1,6 @@
-﻿using System;
+﻿using kakaotalkClone.Models;
+using kakaotalkClone.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,10 @@ namespace kakaotalkClone.Views
     /// </summary>
     public partial class RoomWindow : Window
     {
-        public RoomWindow()
+        public RoomWindow(User user)
         {
             InitializeComponent();
+            DataContext = new roomViewModel(user);
         }
     }
 }

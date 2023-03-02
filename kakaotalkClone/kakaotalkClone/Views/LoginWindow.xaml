@@ -130,8 +130,8 @@
                     </Setter>
                 </Style>
             </StackPanel.Resources>
-                <CheckBox Style="{DynamicResource CheckBoxCircle}" VerticalAlignment="Center"/>
-                <Label VerticalContentAlignment="Center"
+            <CheckBox Style="{DynamicResource CheckBoxCircle}" VerticalAlignment="Center"/>
+            <Label VerticalContentAlignment="Center"
                        Content="자동 로그인" />
         </StackPanel>
     </StackPanel>

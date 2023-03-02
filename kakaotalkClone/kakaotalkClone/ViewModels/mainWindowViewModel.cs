@@ -71,8 +71,7 @@ namespace kakaotalkClone.ViewModels
         }
         private void showRoom(object param)
         {
-            RoomWindow room = new RoomWindow();
-            room.DataContext = new roomViewModel(SelectedItem.User);
+            RoomWindow room = new RoomWindow(SelectedItem.User);
             room.Show();
         }
 

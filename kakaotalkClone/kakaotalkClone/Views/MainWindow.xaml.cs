@@ -15,15 +15,17 @@ using System.Windows.Shapes;
 
 namespace kakaotalkClone.Views
 {
-		/// <summary>
-		/// MainWindow.xaml에 대한 상호 작용 논리
-		/// </summary>
-		public partial class MainWindow : Window
-		{
-				public MainWindow()
-				{
-						InitializeComponent ();
-						this.DataContext = new mainWindowViewModel ();
-				}
-		}
+    /// <summary>
+    /// MainWindow.xaml에 대한 상호 작용 논리
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        mainWindowViewModel mainWindowViewModel;
+        public MainWindow()
+        {
+            InitializeComponent();
+            mainWindowViewModel = new mainWindowViewModel();
+            this.DataContext = mainWindowViewModel;
+        }
+    }
 }
