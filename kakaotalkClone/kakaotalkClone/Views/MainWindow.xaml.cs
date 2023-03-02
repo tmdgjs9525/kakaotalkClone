@@ -26,6 +26,7 @@ namespace kakaotalkClone.Views
             InitializeComponent();
             mainWindowViewModel = new mainWindowViewModel();
             this.DataContext = mainWindowViewModel;
+
         }
     }
 }
