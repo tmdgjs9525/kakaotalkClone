@@ -99,23 +99,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tmdgj\\.nuget\\packages\\": {},
+    "D:\\Nuget": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tmdgj\\Desktop\\wpfStudy\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone.csproj",
+      "projectUniqueName": "D:\\Project\\6.example_github\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone.csproj",
       "projectName": "kakaotalkClone",
-      "projectPath": "C:\\Users\\tmdgj\\Desktop\\wpfStudy\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone.csproj",
-      "packagesPath": "C:\\Users\\tmdgj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tmdgj\\Desktop\\wpfStudy\\kakaotalkClone\\kakaotalkClone\\obj\\",
+      "projectPath": "D:\\Project\\6.example_github\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone.csproj",
+      "packagesPath": "D:\\Nuget",
+      "outputPath": "D:\\Project\\6.example_github\\kakaotalkClone\\kakaotalkClone\\kakaotalkClone\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tmdgj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ace\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -124,6 +124,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -170,7 +171,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
